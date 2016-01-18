@@ -1,0 +1,90 @@
+/*
+==================================================
+Banner
+==================================================
+*/
+.banner-wrap {
+  margin-bottom: 100px;
+  //overflow: hidden;
+  position: fixed;
+  top: -1px;
+  width: 100%;
+  //height: calc(100vh - 1rem);
+
+  &:hover .banner-head {
+    bottom: 0;
+  }
+
+  .subpage & {
+    height: 400px;
+  }
+}
+
+.subpage {
+
+  .banner {
+
+    h2 {
+      bottom: 0;
+      color: white;
+      font-size: 3rem;
+      font-weight: 600;
+      margin: 196px auto 0;
+      text-align: center;
+      max-width: 33%;
+      min-width: 320px;
+    }
+  }
+}
+.banner {
+  height: 800px;
+}
+.subpage-content {
+  border-right: 1px solid rgba(0, 0, 0, .05);
+}
+
+.banner-img {
+  height: 100vh;
+  position: relative;
+
+  div {
+    color: #fff;
+    margin: 10px auto;
+    text-align: center;
+    //position: relative;
+    //top: 100px;
+    //width: 60%;
+
+    h2 {
+      color: rgba(255,255,255,.75);
+    }
+    p {
+      font-size: 1.25rem;
+      line-height: 1.75;
+    }
+  }
+
+  .feature {
+    text-align: center;
+    //top: 25%;
+    width: 60%;
+  }
+
+}
+
+.banner-1 {
+  background: url("../img/img-1.jpg") 0 0 no-repeat;
+  //background-size: cover;
+  //background-position: 0 0 !important;
+  //height: 100%;
+}
+.banner-2 {
+  background: url("../img/banner-img/banner-img-3.jpg") 0 0;
+  //background-position: 0 0 !important;
+  height: 100%;
+}
+.banner-3 {
+  background: url("../img/banner-img/banner-img-2.jpg") 0 0;
+  //background-position: 0 0 !important;
+  height: 100%;
+}
