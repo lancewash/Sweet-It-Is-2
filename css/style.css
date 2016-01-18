@@ -1304,8 +1304,8 @@ nav.row.cbp-spmenu-open {
   height: 50px !important;
   z-index: 900 !important;
   opacity: 1 !important;
-  right: 30px !important;
-  top: 20px !important;
+  right: 32px !important;
+  top: 32px !important;
   border: none !important;
   background: none !important;
 }
@@ -1601,7 +1601,7 @@ Banner
 
 .banner-img div {
   color: #fff;
-  margin: 10px auto;
+  margin: 75px auto 0;
   text-align: center;
 }
 
@@ -3378,25 +3378,25 @@ input[type="submit"].btn {
 }
 
 .border-top {
-  top: 20px;
+  top: 30px;
 }
 
 .border-bottom {
-  bottom: 70px;
+  bottom: 65px;
 }
 
 .border-left {
-  left: 20px;
+  left: 30px;
 }
 
 .border-right {
-  right: 20px;
+  right: 30px;
 }
 
 .border-top, .border-bottom {
   height: 1px;
-  left: 20px;
-  right: 20px;
+  left: 30px;
+  right: 30px;
 }
 
 .border-top, .border-bottom, .border-left, .border-right {
@@ -3407,16 +3407,53 @@ input[type="submit"].btn {
 
 .border-left, .border-right {
   width: 1px;
-  top: 20px;
-  bottom: 70px;
+  top: 30px;
+  bottom: 65px;
 }
 
 .border-right {
-  top: 20px;
+  top: 75px;
 }
 
 .border-top {
-  right: 96px;
+  right: 106px;
+}
+
+.top-white-bar, .bottom-white-bar {
+  height: 15px;
+  width: 100%;
+  position: fixed;
+  z-index: 8000;
+  background-color: #fff;
+}
+
+.left-white-bar, .right-white-bar {
+  width: 15px;
+  height: 100%;
+  min-height: 100%;
+  position: fixed;
+  z-index: 8000;
+  background-color: #fff;
+}
+
+.left-white-bar {
+  top: 0;
+  left: 0;
+}
+
+.right-white-bar {
+  top: 0;
+  right: 0;
+}
+
+.top-white-bar {
+  top: 0;
+  left: 0;
+}
+
+.bottom-white-bar {
+  bottom: 0;
+  left: 0;
 }
 
 .logo {
@@ -3435,6 +3472,8 @@ input[type="submit"].btn {
 
 main.content-main {
   background: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .centered img {
