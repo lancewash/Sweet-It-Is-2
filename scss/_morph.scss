@@ -406,6 +406,7 @@
   //border: 1px solid rgba(182, 152, 83, 1);
   //background: rgba(182,152,83,1);
   background: #FF5C26;
+  background: rgba(0,0,0,.1);
   color: rgba(255,255,255,.9);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -422,6 +423,7 @@
       //background: rgba(0,0,0,1);
       //border: 1px solid #000;
       //color: rgba(255,255,255, 1);
+      background: #FF5C26;
       outline: none;
       -webkit-transition: all .25s ease-in-out;
       -moz-transition: all .25s ease-in-out;
@@ -575,6 +577,7 @@
 
 /* Morph Button Style: Overlay */
 .morph-button.morph-button-overlay {
+  background: #FF5C26;
   display: inline-block;
   float: left;
   margin: 0 0 0 1px;

@@ -9,12 +9,13 @@
 </head>
 <body>
 <nav class="row cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-bottom" id="cbp-spmenu-s4">
-    <div class="icon-wrap unit-20">
-        <a href="#">fb</a>
-        <a href="#">insta</a>
-        <a href="#">twit</a>
+    <div class="icon-wrap unit-25">
+
+        <a href="tel:+704-351-4668">704.351.4668</a>
+        <a href="#">email</a>
+        <a href="">map</a>
     </div>
-    <div class="nav-wrap unit-70 centered">
+    <div class="nav-wrap unit-50 centered">
         <!--Button One-->
         <div class="morph-button morph-button-overlay morph-button-fixed">
             <button type="button">Cupcakes</button>
@@ -119,9 +120,10 @@
         </div>
 
     </div>
-    <div class="icon-wrap right  unit-10" style="margin-right: 55px;.">
-        <a href="#">email</a>
-        <a href="#">login</a>
+    <div class="icon-wrap right  unit-25" style="margin-right: 55px;.">
+        <a href="#">fb</a>
+        <a href="#">insta</a>
+        <a href="#">twit</a>
     </div>
 </nav>
 <button id="showBottom">x</button>
@@ -335,13 +337,18 @@
         </div>
     </main>
 </div>
-<!-- /canvas -->
-<!-- Page Border Effect -->
-<!--<div class="border-top2"></div>
-<div class="border-bottom2"></div>
-<div class="border-left2"></div>
-<div class="border-right2"></div>-->
-<a href="" class="nav-button"><img src="img/menu.png" alt=""></a>
+<div class="overlay overlay-door">
+    <button type="button" class="overlay-close">Close</button>
+    <nav>
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Sweet It Is! Gallery</a></li>
+            <li><a href="#">Upcoming Events</a></li>
+        </ul>
+    </nav>
+</div>
+
+<a id="trigger-overlay" class="nav-button"><img src="img/menu.png" alt=""></a>
 <div class="border-top"></div>
 <div class="border-bottom"></div>
 <div class="border-left"></div>
@@ -357,6 +364,7 @@
 <script src="js/slick.min.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/uiMorphingButton_fixed.js"></script>
+<script src="js/overlay.js"></script>
 <script>
     (function () {
         var docElem = window.document.documentElement, didScroll, scrollPosition;

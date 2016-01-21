@@ -58,6 +58,10 @@
     top: 32px !important;
     border: none !important;
     background: none !important;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 /* Fullwidth */
 .fullwidth ul {
